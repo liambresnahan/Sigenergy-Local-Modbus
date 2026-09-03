@@ -481,3 +481,4 @@ class CoordinatorDiagnosticSensor(SigenergyEntity, SensorEntity):
         except Exception as e:
             _LOGGER.exception("Unexpected error in CoordinatorDiagnosticSensor for %s: %s", self.entity_id, e)
             return None
+
